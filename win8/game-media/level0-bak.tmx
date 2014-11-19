@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="terrain_atlas" tilewidth="32" tileheight="32">
+  <image source="terrain_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1025" name="DungeonCrawl_ProjectUtumnoTileset" tilewidth="32" tileheight="32">
+  <image source="../../tilesets/DungeonCrawl_ProjectUtumnoTileset.png" width="2048" height="1536"/>
+ </tileset>
+ <layer name="lava" width="64" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIAzAIiubfHDZ29Ojf7EwAAACodwUHAAAAAHo9Z4+P4g==
+  </data>
+ </layer>
+ <layer name="rock" width="64" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzVmW1uwyAMhuEMW0/S5iTpbr7dZPu/Is2S5fkbCIkl/2qa+HnzAoaUcp14q6W8/+WDya2urtAXmOMWqPkucHP8+BlargjM8V1sHYDlp+j8D3QfSyvIFcHVpungZcH38WjVy+/1GE2tNm4MS/yfr9++nJwj+SN+jGaEv127v/JZ8zpk2GdwU/9CtvGg8VsagU+elc9oRMbiKD/swvvF/OADLj8SnGfhb36QPIC94llH6Xx1q//nJus+XB3UX56xiP9jXb8J/JIXvLVviftwddD/UC9a3vWwWdfQeYNLOm9x/FY/IvlQ8w03fkfzZ8dW1E9SHZL+oAv1BJ6TVvF7/ETfa7QOy0+e9XQFv+SDbL8R9RP9r7a+eTLbH0ljW1qTZ/H3Ro9/pOdHNJjBH9l/SGPMU7+mP+dLa72LatijnZWe50f7LE+PEOGYye99Bx6OFtJ8fmb+iAZWnyWNs7PxQ/+NIzqnR/Is/MAt7QlnaXA0v7Tn9+yFZ2hgrSHa8zL8vT3DSA3au7B01874Ml4d0TPtB7Fr/FL/aZ1BjvoW0uMDL7vGDxo0VtDBu2caFdm9R+TczTOXR872r/ItDGL0/vaK/L3fM/CaN/LM94i419w5x5WZcQB/dK7pZf4FAmU4VQ==
+  </data>
+ </layer>
+ <layer name="lava freckles" width="64" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztWVEOwiAMRb2mehL1JOqZTHaRHWHdhwkxIIX2UdbsJf1bCrSvr2WEsF3MZJ/CN2eyC9kVv51qHA/4NW5kd7IHfqkiWnNxEsTpSfYie7e7UIM0F5PiXtBIcXukXCBQ0qIvZsU1R9a3VnDrff2OU1MaOjtqnOOakuhkCb36SC+Nq+UESruQOduBxZb6sSW42vkvnlr6y80Zt5dzoKGdOR9o/dDonRra2epDgzfoGHvo2ylwag1xB459cnjzW+u5+VzCpVyOpfzU1KkSJFzK5Tnls+eZaoCYAXM+Ne+IXHidRSWxnIKPOU+is5bnH/Xe3QuW/buGMyi9qtVczd6xc4/PvVUj4th7iF3MvfVsNRy3qttR4m71r3+k9y4LeH9j8QyL+XsBEftPig==
+  </data>
+ </layer>
+ <layer name="lava spots" width="64" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztmUsKgDAMRNMzqCdRT6Le24030b0REYoIttpf2nlQutHFpJMsMkTmDIpo4bvju1cWP2bEUYORzyRI/2z4XcWaaj6NIG0uaZV/b5u+RQwkehuAlHsqJ1BnAACwx8XsxPwFX4BvgCt8eAn+BKAcSt4zHto3stsz5jQfrx1rqRmCNP2uvRdLf4yZc6+d3vuh9b9lGyHqo7+9T/1Pnn3LNkJkP3p+2iWWs1z6Vzp94MsLKWZM976UNJ//sgNawR81
+  </data>
+ </layer>
+ <layer name="chars" width="64" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt10ENgEAMRNFuAkIQQ4ItDtzRgAKwAAYWR6yJzbT0PwUzSZu0ZrmsgzoBPNiL2TGqU+icrf9V1Cl0auv+Ju4PAACA/m5+z9C2xP8i/mtmroFuFmf79XCHhDU5myUAQEwf0voHmA==
+  </data>
+ </layer>
+ <imagelayer name="terrain">
+  <image source="level0.png"/>
+ </imagelayer>
+ <layer name="AI" width="64" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAgHcDIAAAAQ==
+  </data>
+ </layer>
+</map>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="64" tileheight="64">
- <tileset firstgid="1" name="AI" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="AI-DATA" tilewidth="64" tileheight="64">
   <image source="AI-DATA.png" width="256" height="256"/>
  </tileset>
- <imagelayer name="Terrain" x="196" y="38" visible="0">
+ <imagelayer name="Terrain" visible="0">
   <image source="level0.png"/>
  </imagelayer>
  <layer name="AI" width="32" height="16">
   <data encoding="base64" compression="zlib">
-   eJztkt0OwDAERq2d93/l3UwiolRM3azJd4M6/gYAjAbR03yXI4rDVxV8zlj5Kvu3+LvzifLvYE5pz/LpL4p8Xq90B9w+E/zoriU/2//Orq24DF/LgU6Mda8RPp/jiq/VUMH/QlH+Sf38Xj7V0N3/A3vqA6E=
+   eJy1VUEOgDAIm1P+/2VPSwyBlhI89OC0FCi4vdbaP+ByOOc2FN9cXKSd4WnUkaHDyfJXY/h432cTNH1vJ/QretE3iO/PmT7CLXoYzXD2vts/lofSq8hbllt1l5EnjMvmJfpPRBq+HnWPJnZW9a+ba4XHZrMCRVvxv6KN5hPdHczTau1dMM+m7j1Vn/Fe3owDPw==
   </data>
  </layer>
 </map>

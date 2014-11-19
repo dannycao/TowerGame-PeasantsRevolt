@@ -1,5 +1,4 @@
 css\default.css
-game-media\bounce.mp3
 game-media\buildmenu.png
 game-media\cinematic.png
 game-media\entities.png
@@ -54,7 +53,6 @@ images\wide.scale-80.png
 index.html
 js\default.js
 js\easystar.js
-js\hand.js
 js\howler.js
 js\jaws.js
 js\TowerGameStarterKit.js
