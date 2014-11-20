@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="64" tileheight="64">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="36" height="20" tilewidth="64" tileheight="64">
  <tileset firstgid="1" name="AI-DATA" tilewidth="64" tileheight="64">
   <image source="AI-DATA.png" width="256" height="256"/>
  </tileset>
- <imagelayer name="Terrain">
+ <tileset firstgid="17" name="terrain_atlas" tilewidth="32" tileheight="32">
+  <image source="terrain_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <imagelayer name="Terrain" visible="0">
   <image source="level0.png"/>
  </imagelayer>
- <layer name="AI" width="32" height="16">
+ <layer name="AI" width="36" height="20">
   <data encoding="base64" compression="zlib">
-   eJzFVVsOgCAMA5T7X9kfl5Bl657GjyZG2Nq1KGuMsT7AZKD3+0WlN/WYTu4T+3i+E3NIfbgOtE/zhc+Haqx+nB9ptfyt8nszQuvamrY3ovdyZCj5ibRW/bN0ePmz2fJ6pJH3s/RLZ9HjsZR7hl+bpSujCH9Uq6cOZdfx3Vv/yQ5+dO61c2151nnv/MWPEM2L8ABWugOh
+   eJztVVsOgCAMA5T7X9kfScjiuo6BGuNHE8Nj69ZOSkqp/HgMWaCt1xMzc7WYWdmXXHrU7nufUOdVXMkLndP6ZtWPYljxJR/E3atHlI+lqXeduWPx8ei1KXvIN3I+ZHxPf9m5RLxYPowX2HwVnInEZ7zNaKJ5baReZtYiHvTqbXHxckL3kNYr/jtWLSv4sD739HblO/oWPiPeuyv/13EAXosFQQ==
   </data>
  </layer>
 </map>
