@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="32" height="16" tilewidth="64" tileheight="64">
- <tileset firstgid="1" name="AI" tilewidth="64" tileheight="64">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="AI-DATA" tilewidth="64" tileheight="64">
   <image source="AI-DATA.png" width="256" height="256"/>
  </tileset>
- <imagelayer name="Terrain" width="32" height="16" visible="0">
-  <image source="terrain1.png"/>
+ <tileset firstgid="17" name="tileset" tilewidth="64" tileheight="64">
+  <image source="tileset.png" width="640" height="960"/>
+ </tileset>
+ <tileset firstgid="167" name="plants-64x64" tilewidth="64" tileheight="64">
+  <image source="plants-64x64.png" width="832" height="832"/>
+ </tileset>
+ <imagelayer name="Terrain" visible="0">
+  <image source="level1.png"/>
  </imagelayer>
+ <layer name="Terrain" width="32" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy1lMEKwkAMRPNZ/kBVBKE/0IOHVeyp9tSDH2+KCnVMsjt1HRik2TBvN10r8tRevVNvJdY9s86qIftv6qGCR3Vr5HcGoyP3mF6/80yjeXp8zGH5nnDWOb5VY99XpDV8rB/Ux4UxH9fREasxatG+8Nk6n5URnQFzpwz/pD4vXMJf2+PVk1O3vjHvjOm73eVsMnxGpee/yOdcS+dbg8/m4R7nO9E7rH/wmbUa/Og/wfKT+Pe3RCzfulO/uIf8a6b3AXSLN4I=
+  </data>
+ </layer>
+ <layer name="Plants" width="32" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgeoGAQmelIJfupZQ49gNFAO4BI4ItFjBZutyBDDza3oYOhkCbIceNQ8BcySKOBmTKMDAyyQCwHxPKM5JtDrts0gXZqAbE2EOtQYD8yUACaowjESkSYZwZUYw7EFkBsSYL9+NKOLtAcPSDWx2OeAZR2BqpxAWJXIHajkv+tgOZYA7ENFczDFa8GOMRBwB1orwcj7jACAI/2Csg=
+  </data>
+ </layer>
  <layer name="AI" width="32" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYmBgYBoimBEPpqf9uNxCD/uR+axY3EUJZsFjDiE7qOEGbGHJSkAeX/qghv3ExAO55hDjB2xxjs9s9DTBiBaGxGBsYU5OfFMrf6DrJ8VvyGqZqeQGepc7lKYrUuOfVmaM4sGHASmpA9Y=
+   eJxjYmBgYCIBs5ContqYkcqYWPNJcSMrCX7BJ8aKRx21wpJcscFgP6F4Ijf+SbGfFD45fsCVJnDZR2q6pUQNLnFi0z+yGfj0kGo/pWmQmDgip1yglR+IdSs98jY+82hlP748QQ/7KfU/res0WBihq2MGYgCZigOe
   </data>
  </layer>
 </map>
