@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\Users\Danny\Desktop\455\TowerGame-PeasantsRevolt\win8\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-20T00:03:45.704</Modified>
+      <Modified>2014-11-20T00:27:36.582</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -58,7 +58,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Danny\Desktop\455\TowerGame-PeasantsRevolt\win8\game-media\level0.png">
       <PackagePath>game-media\level0.png</PackagePath>
-      <Modified>2014-11-20T00:02:37.810</Modified>
+      <Modified>2014-11-20T00:20:06.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Danny\Desktop\455\TowerGame-PeasantsRevolt\win8\game-media\level1.png">
       <PackagePath>game-media\level1.png</PackagePath>
@@ -240,19 +240,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Danny\Desktop\455\TowerGame-PeasantsRevolt\win8\game-media\level0.js">
       <PackagePath>game-media\level0.js</PackagePath>
-      <Modified>2014-11-20T00:00:48.689</Modified>
+      <Modified>2014-11-20T00:27:12.808</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Danny\Desktop\455\TowerGame-PeasantsRevolt\win8\game-media\level1.js">
       <PackagePath>game-media\level1.js</PackagePath>
-      <Modified>2014-11-20T00:00:48.689</Modified>
+      <Modified>2014-11-20T00:27:12.814</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Danny\Desktop\455\TowerGame-PeasantsRevolt\win8\game-media\level2.js">
       <PackagePath>game-media\level2.js</PackagePath>
-      <Modified>2014-11-20T00:00:48.689</Modified>
+      <Modified>2014-11-20T00:27:12.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Danny\Desktop\455\TowerGame-PeasantsRevolt\win8\game-media\level3.js">
       <PackagePath>game-media\level3.js</PackagePath>
-      <Modified>2014-11-20T00:00:48.705</Modified>
+      <Modified>2014-11-20T00:27:12.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Danny\Desktop\455\TowerGame-PeasantsRevolt\win8\js\default.js">
       <PackagePath>js\default.js</PackagePath>

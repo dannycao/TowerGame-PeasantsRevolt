@@ -6,12 +6,12 @@
  <tileset firstgid="17" name="terrain_atlas" tilewidth="32" tileheight="32">
   <image source="terrain_atlas.png" width="1024" height="1024"/>
  </tileset>
- <imagelayer name="Terrain" visible="0">
+ <imagelayer name="Terrain">
   <image source="level0.png"/>
  </imagelayer>
  <layer name="AI" width="36" height="20">
   <data encoding="base64" compression="zlib">
-   eJztVVsOgCAMA5T7X9kfScjiuo6BGuNHE8Nj69ZOSkqp/HgMWaCt1xMzc7WYWdmXXHrU7nufUOdVXMkLndP6ZtWPYljxJR/E3atHlI+lqXeduWPx8ei1KXvIN3I+ZHxPf9m5RLxYPowX2HwVnInEZ7zNaKJ5baReZtYiHvTqbXHxckL3kNYr/jtWLSv4sD739HblO/oWPiPeuyv/13EAXosFQQ==
+   eJztlUsOgDAIRKna+1/ZmNikIQLTsZ9NF7MpDX3AoIeIHFvLlJTKeX7V8y0kZ5JvtlydXR3qLO9kFbd49D2rb0j9Vg4kd1K5PPaZPFHfmVkx95gaHp1ODN0PdoesWj1exH8tPNpPSM91Po+p9hrqTcRjHo/nk4in1T8t/o1m+mcnmFoQHmvWDA/y3Yl2ZQQPE4/mNfs/Gs14BM/WOt1E6QWZ
   </data>
  </layer>
 </map>
