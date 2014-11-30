@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="32" height="16" tilewidth="64" tileheight="64">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="20" tilewidth="64" tileheight="64">
  <tileset firstgid="1" name="AI" tilewidth="64" tileheight="64">
   <image source="AI-DATA.png" width="256" height="256"/>
  </tileset>
- <imagelayer name="Terrain" width="32" height="16" visible="0">
+ <tileset firstgid="17" name="forestground06dv5_0" tilewidth="64" tileheight="64">
+  <image source="../../tilesets/forestground06dv5_0.png" width="1258" height="1358"/>
+ </tileset>
+ <tileset firstgid="416" name="plant2" tilewidth="64" tileheight="64">
+  <image source="../../tilesets/plant2.png" width="675" height="615"/>
+ </tileset>
+ <tileset firstgid="506" name="treetrunk2006bu8" tilewidth="64" tileheight="64">
+  <image source="../../tilesets/treetrunk2006bu8.png" width="286" height="244"/>
+ </tileset>
+ <tileset firstgid="518" name="levelprops" tilewidth="64" tileheight="64">
+  <image source="levelprops.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Terrain" width="32" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMAiDfzf6ZDHLY6CVVVfXNARMgrIE=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="32" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlklKBDEUhlMncAKnpYLgtFGPoO0FFNQLaOO0V3ECF85bwdmtYjtuFccTOJ5AvYKK+jWVgkcqaictuvHBR17+ystfHeqFTgRKNYNPNFGX8KhvgVZIQju1HZ7+bYFffSd0wZCfrXNMwhRMwwwMwCDMG+uWYBlWxPid5pqvwhqsw4bwjt4pfSa7sKPHlMhtmmu+B/twAIfCfxbm9Jmcw5keT0Vu01zzC7g0zj36HpL6TG7hRo/XIrdprvkd3Bv+0dkXQhEU61zOu/nGe6AX+qA/yE4rYc9S4z0qoQqqdS7nw9SMwCiMwXiQnVbDnrXq76IxCJFRx7weGjzvI9c90v4TjA/wCE8qvE/lPOrZRRXvY6l9tYdc9wbvaXP9+xdIn+EFXlXYp3Ie9ey2ivex1GRNypjLdXl45kOB9t9E24ITFe9Tmdue+2g5eOZChfY/QjuGKxXvU5nbnvtoZXiWW769/8gsfrtHzfD9z/PZHra7+Sfu90y1D1Ye3go=
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="32" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMNDAlRFCuzMOrBmjYBSMgpEBANCwAR0=
+  </data>
+ </layer>
+ <layer name="Tile Layer 5" width="32" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzdljlvwkAUhNcGRBCggID/3wBlSElSQgMdRxegg4IjNFxRwvW5WClaYWsX4wUx0nTW+zyr9fgJ8Zj6dYT4w3t8cOzzjzBPHtcVwnGvn7NgxjdeGmZwYcZwHCdC8Ldwd/hHk9/huS6e3+HMPX3BHeBNxPwy8ysKQ2afWMj+BqOmcGR2G6rD+VBYY0vZPTXgNO90x/5ryjvMNO/7td9ykFbMWmved9Nv+VnUIm87osxJuvUFpwI6tge7HxE/DTeDswH8IexRRPxXuDmcD/GPCaMC3CIu3ZCv7g6y66saZ2iyd/h1h7o7yK5/1+Cb7B1+3aHuDrLrPy/wz9Y0RYM=
+  </data>
+ </layer>
+ <imagelayer name="Terrain">
   <image source="level2.png"/>
  </imagelayer>
- <layer name="AI" width="32" height="16">
+ <layer name="AI" width="32" height="20">
   <data encoding="base64" compression="zlib">
-   eJzdlMEOwCAIQ8GN///lnZYYM0BLM5cduGjoawnaRKR9oA6ChhV6dWN2DfhZprPr10Srkr+/jzyx+UguxEPEX9Vl8UedSNOGngrfHN6MLvqOnrRX+ejuebvm8e9zI7Jn/q7MF8pmz+ltHzvYf6kLfykD1w==
+   eJxjZUAARiIxMmAlUS+6fnx2E5KnBDPjMJcQINVfxJo3UIBe9rPiEB8p/h/s9g+UG6idr8kth2ihnpyyEFc+IQUQa8ZAprtR+0m3n5Z5gIVG5hNrPyV5ht6AnnmU1gAA+QwA7A==
   </data>
  </layer>
 </map>
