@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="32" height="16" tilewidth="64" tileheight="64">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="64" tileheight="64">
  <tileset firstgid="1" name="AI" tilewidth="64" tileheight="64">
   <image source="AI-DATA.png" width="256" height="256"/>
  </tileset>
- <imagelayer name="Terrain" width="32" height="16">
+ <tileset firstgid="17" name="terrain_atlas2" tilewidth="64" tileheight="64">
+  <image source="terrain_atlas2.png" width="2048" height="2048"/>
+ </tileset>
+ <layer name="Terrain" width="32" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJybzcjAMHsUj+JRPIpH8SgexSMKAwC/PjgQ
+  </data>
+ </layer>
+ <layer name="dirt" width="32" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzbyszAsBUJg8BWLGLIAF0eH8ZlHqnqh4v9hMwgx35SzBu1f9T+UfuHlv3obhgI+/Hppbb95MQPte3Hp4YU+8nxH6luoMR+ADOME1g=
+  </data>
+ </layer>
+ <layer name="edges" width="32" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYECAWYwMGACb2BwsYtgATC+yemxixKinhv1VQDqGyvaDzKwG4hoizIPxZzNSz35SwhPZrFH7R+0ftX/w278LyLZBU0st+7cyY1cfjVaeobuB1v4n5AZ62I/LDbuBeA+R9qOrJ9V+bG7ApYeYOhGb/QBFPGHQ
+  </data>
+ </layer>
+ <layer name="objects" width="32" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAAOSYGBnkgVmBiIAjmMjIwzGNE8KuAeqqBuAaI1zEzMKwH4g3MmPrw2WEHFLMHYgci7N8LtHsfI3a5c0B7zwPxBSz2k2IHueAd0N73QPwBi/30AHwsDAz8QCzAQl97WZiws/EBXOmEHKDChJ2ND+BKJ9jAd6C6m1jUXoeKuSDZ6UKk/QORTm4g2YeeTr7TwS0/aGAHPdwNA6fR7MJX3hELuEnIq6/R7MFX3tHDPaSWd+jhRynAVt7hcz9y+B0C5tPDTJj1GTFAlgp1yCOgGY+ZsNdn1wmEky2a/VJAvjQQy5DgLgDZ+i1o
+  </data>
+ </layer>
+ <layer name="build" width="32" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAeFDIyMBQBcTEjCZqoaPZEoNwkIJ5MA/uJMXsjUG4TEG+mwH5c/qSG2cQAWoYhMYBe/hzJgJb5lBhAzTRGjl+omcZGUn4ZiumGFDcTUktOWJPiZlqkJVLcjE0tANbjKVk=
+  </data>
+ </layer>
+ <imagelayer name="Terrain">
   <image source="level3.png"/>
  </imagelayer>
  <layer name="AI" width="32" height="16">
   <data encoding="base64" compression="zlib">
-   eJzNlVEOgDAIQxHd/a/s1xJDKFDIEkn8qYxXkW0i/47LeU5xblPfY0b8iU/EUpBX4Xc8IM4K+FuzXpXwENXNNJG6V8YD4rC6jSfgdzjZTFS1av8Rh/lXSNckb/KdK3j3ZWWzzvCnve76zLxW+u/tX7tWQR7is+dXxkfnVLUe8mHD9pqtd/LumsQLyToAvw==
+   eJztlMEOwCAIQzEb///L22WJWWihOm4j8QLYhwoOMxtkZabmVTnI7wVNxGc1IW1k6p1V+FEs4yt6j/nkQ3tW+Jmf+X7+Pn+l/7r4HsSQxlf9tzN/ylkYi+lVc5l+F1+toYsf9Y06Z+r8nUEs04z+0zn3vSc6H3tfVAN7LzX/uNcFfUkA3w==
   </data>
  </layer>
 </map>
